@@ -39,14 +39,4 @@ public class SellerDTO implements Serializable {
 		this.name = name;
 	}
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-
-
-	
-	
-	
-	
-
 }
