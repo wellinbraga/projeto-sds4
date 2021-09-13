@@ -21,10 +21,7 @@ export type SalePager = {
     empty?: boolean;
 }
 
-export type SaleSum = {
-    sellerName: string;
-    sum: number;
-}
+
 
 export type SaleSuccess = {
     sellerName: string;
