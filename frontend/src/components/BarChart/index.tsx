@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import Chart from 'react-apexcharts'
-import { SaleSuccess, SaleSum } from 'types/sales'
+import { SaleSuccess } from 'types/sales'
 import { round } from 'utils/format'
 import { BASE_URL } from 'utils/request';
 
@@ -84,7 +84,3 @@ const BarChart = () => {
 }
 
 export default BarChart;
-
-function useSatete<T>(arg0: {}): [any, any] {
-    throw new Error('Function not implemented.')
-}
